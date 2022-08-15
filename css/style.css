@@ -18,6 +18,14 @@ a{
 
 /* Nav part start */
 
+    nav{
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
     .box{
         display: flex;
     }
@@ -36,7 +44,7 @@ a{
     nav .nav-item ul{
         display: flex;
         column-gap: 50px;
-        font-family: 'Hind', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-size: 18px;
         font-weight: 600;
         color: rgba(41, 49, 61, 1);
@@ -68,3 +76,193 @@ a{
     }
 
 /* Nav part end */
+
+/* Banner part start */
+
+    .banner{
+        background: url(../assets/images/banner.png);
+        padding: 200px 0;
+        position: relative;
+    }
+
+    .banner .round-shape {
+        width: 100px;
+        height: 100px;
+        border: 1px solid #FFABBA;
+        border-radius: 50%;
+        position: absolute;
+        top: 71px;
+        left: 805px;
+        animation: rotate 6s infinite linear;
+    }
+
+    .banner .round-shape .inner-shape{
+        width: 25px;
+        height: 25px;
+        background: #FFABBA;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 0;
+        left: 8px;
+    }
+
+    @keyframes rotate{
+        from{
+            transform: rotate(0);
+        }to{
+            transform: rotate(360deg);
+        }
+    }
+
+    .banner .round-shape2 {
+        width: 200px;
+        height: 200px;
+        border: 1px solid #70c9fe;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 40px;
+        left: 277px;
+        animation: rotate 6s infinite linear;
+    }
+
+    .banner .round-shape2 .inner-shape2 {
+        width: 35px;
+        height: 35px;
+        background: #70c9fe;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 0;
+        left: 25px;
+    }
+
+    @keyframes rotate{
+        from{
+            transform: rotate(0);
+        }to{
+            transform: rotate(360deg);
+        }
+    }
+
+    .banner .line {
+        width: 100%;
+        position: absolute;
+        top: -100px;
+        left: -400px;
+        animation-name: roll-in-bottom;
+        animation-duration: 7s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+    }
+
+    .banner .rocket-inner {
+        position: absolute;
+        top: -50px;
+        right: 0;
+    }
+
+    .banner .rocket-inner .rocket{
+        width: 80px;
+        height: 80px;
+    }
+
+    @keyframes roll-in-bottom {
+        from{
+          transform: translateY(900px);
+          opacity: 0;
+        }to{
+          transform: translateY(0);
+          opacity: 1;
+        }
+    }
+
+    .banner .dot {
+        width: 17px;
+        height: 17px;
+        background: #C087EE;
+        border-radius: 50%;
+        position: absolute;
+        top: 144px;
+        right: 667px;
+        animation: drop 2s infinite alternate;
+    }
+
+    @keyframes drop{
+        from{
+            transform: translateY(-50px);
+        }to{
+            transform: translateY(0);
+        }
+    }
+
+    .banner .star{
+        width: 15px;
+        height: 15px;
+        color: #C087EE;
+        position: absolute;
+        top: 250px;
+        right: 500px;
+        animation: rotate 4s infinite linear;
+    }
+
+    .banner .star2{
+        width: 15px;
+        height: 15px;
+        color: #C087EE;
+        position: absolute;
+        top: 250px;
+        left: 500px;
+        animation: rotate 4s infinite linear;
+    }
+
+    .banner h1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 64px;
+        font-weight: 700;
+        color: #29313D;
+        width: 771px;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 130%;
+        text-transform: capitalize;
+    }
+
+    .banner p{
+        font-family: 'Nunito', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #29313D;
+        width: 547px;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 200%;
+        margin-top: 24px;
+        margin-bottom: 44px;
+
+    }
+
+    .banner .button{
+        text-align: center;
+    }
+
+    .banner .button a{
+        display: inline-block;
+        background: #FF5538;
+        padding: 14px 28px;
+        border-radius: 18px;
+        color: #fff;
+        font-family: 'Nunito', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 36px;
+        margin: 0 12px;
+        border: 1px solid transparent;
+    }
+
+    .banner .button a:hover{
+        background: transparent;
+        color: #FF5538;
+        border-color: #FF5538;
+    }
+
+/* Banner part end */
