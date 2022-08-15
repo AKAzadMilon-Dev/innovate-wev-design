@@ -73,6 +73,14 @@ a{
         font-size: 18px;
         font-weight: 600;
         line-height: 36px;
+        border: 1px solid transparent;
+    }
+
+    nav .button a:hover{
+        background: transparent;
+        color: #FF5538;
+        border-color: #FF5538;
+
     }
 
 /* Nav part end */
@@ -81,7 +89,7 @@ a{
 
     .banner{
         background: url(../assets/images/banner.png);
-        padding: 200px 0;
+        padding: 300px 0;
         position: relative;
     }
 
@@ -91,8 +99,8 @@ a{
         border: 1px solid #FFABBA;
         border-radius: 50%;
         position: absolute;
-        top: 71px;
-        left: 805px;
+        top: 119px;
+        left: 659px;
         animation: rotate 6s infinite linear;
     }
 
@@ -120,7 +128,7 @@ a{
         border: 1px solid #70c9fe;
         border-radius: 50%;
         position: absolute;
-        bottom: 40px;
+        bottom: 239px;
         left: 277px;
         animation: rotate 6s infinite linear;
     }
@@ -182,8 +190,8 @@ a{
         background: #C087EE;
         border-radius: 50%;
         position: absolute;
-        top: 144px;
-        right: 667px;
+        top: 243px;
+        right: 568px;
         animation: drop 2s infinite alternate;
     }
 
@@ -195,23 +203,23 @@ a{
         }
     }
 
-    .banner .star{
+    .banner .star {
         width: 15px;
         height: 15px;
         color: #C087EE;
         position: absolute;
-        top: 250px;
-        right: 500px;
+        top: 407px;
+        right: 334px;
         animation: rotate 4s infinite linear;
     }
 
-    .banner .star2{
+    .banner .star2 {
         width: 15px;
         height: 15px;
         color: #C087EE;
         position: absolute;
-        top: 250px;
-        left: 500px;
+        top: 300px;
+        left: 389px;
         animation: rotate 4s infinite linear;
     }
 
@@ -263,6 +271,43 @@ a{
         background: transparent;
         color: #FF5538;
         border-color: #FF5538;
+
     }
 
 /* Banner part end */
+
+/* Service part start */
+
+    .service .box{
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-50%);
+    }
+
+    .service .item{
+        width: 450px;
+        background: #ffffff;
+        box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.11);
+        -webkit-box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.11);
+        -moz-box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.11);
+        padding: 30px 30px;
+        box-sizing: border-box;
+        text-transform: capitalize;
+    }
+    .service .item h3{
+        font-family: 'Poppins', sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        color: #29313D;
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+
+    .service .item p{
+        font-family: 'Nunito', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 200%;
+    }
+
+/* Service part end */
