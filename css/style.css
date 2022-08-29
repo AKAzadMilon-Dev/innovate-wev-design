@@ -16,6 +16,26 @@ a{
     text-decoration: none;
 }
 
+.title h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF5538;
+    text-transform: capitalize;
+}
+
+.title h2{
+    width: 449px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+    color: #29313D;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+
 /* Nav part start */
 
     nav{
@@ -311,3 +331,76 @@ a{
     }
 
 /* Service part end */
+
+/* digital life part start */
+
+.digitallife .box{
+    display: flex;
+}
+
+.digitallife .img{
+    width: 50%;
+}
+
+.digitallife .box .img img{
+    position: relative;
+    right: 0;
+    top: 50px;
+    width: 110%;
+}
+
+.digitallife .text{
+    width: 50%;
+    background: url(../assets/images/digitaltextimg.png) no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding-top: 109px;
+    padding-left: 185px;
+}
+
+.digitallife .text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600px;
+    line-height: 50px;
+    color: #29313D;
+    width: 570px;
+    
+}
+
+.digitallife .text p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 36px;
+    color: #29313D;
+    width: 501px;
+    margin-top: 20px;
+    margin-bottom: 48px;
+}
+
+.digitallife .text .button{
+    width: 181px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 314px;
+}
+
+.digitallife .text .button a{
+    display: inline-block;
+    background: #FF5538;
+    padding: 14px 28px;
+    border-radius: 18px;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    border: 1px solid transparent;
+}
+
+/* digital life part end */
+
+/* digital life part start */
+/* digital life part end */
