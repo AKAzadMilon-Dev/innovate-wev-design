@@ -356,6 +356,7 @@ a{
     background-position: right;
     padding-top: 109px;
     padding-left: 185px;
+    padding-bottom: 314px;
 }
 
 .digitallife .text h3{
@@ -384,7 +385,7 @@ a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-bottom: 314px;
+    /* margin-bottom: 314px; */
 }
 
 .digitallife .text .button a{
@@ -400,7 +401,184 @@ a{
     border: 1px solid transparent;
 }
 
+.digitallife .text .button a:hover{
+    background: transparent;
+    color: #FF5538;
+    border-color: #FF5538;
+
+}
+
 /* digital life part end */
 
-/* digital life part start */
-/* digital life part end */
+/* work part start */
+
+.work{
+    position: relative;
+}
+
+.work .img {
+    position: absolute;
+    top: -287px;
+    left: 0;
+}
+
+.work .img .imginner {
+    position: absolute;
+    top: 101px;
+    left: 0;
+    animation: earth 3s infinite;
+}
+
+@keyframes earth {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.7);
+        opacity: 0;
+    }
+}
+
+.work .box{
+    display: flex;
+}
+
+.work .box .title {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.work .box .title h2{
+    width: 693px;
+}
+
+.work .box .button {
+    width: 20%;
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+
+.work .button a{
+    display: inline-block;
+    background: #fff;
+    padding: 14px 28px;
+    border-radius: 18px;
+    color: #FF5538;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    border: 1px solid transparent;
+    border-color: #FF5538;
+}
+
+.work .button a:hover{
+    background: #FF5538;
+    color: #fff;
+}
+
+.work .box-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.work .small-item{
+    width: 39%;
+    position: relative;
+}
+
+.work .small-item img{
+    width: 100%;
+    height: 458px;
+}
+
+.work .small-item .text-small-item {
+    width: 100%;
+    height: 127px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    padding: 30px;
+    box-sizing: border-box;
+    opacity: 0;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
+    transition: 1s;
+}
+
+.work .small-item:hover .text-small-item{
+    bottom: 0;
+    opacity: 1;
+}
+
+.work .text-small-item h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #29313D;
+    margin-bottom: 10px;
+}
+
+.work .text-small-item a{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF5538;
+}
+
+.work .large-item{
+    width: 59%;
+    position: relative;
+}
+
+.work .large-item img{
+    width: 100%;
+    height: 458px;
+}
+
+.work .large-item .text-large-item{
+    width: 100%;
+    height: 127px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    padding: 30px;
+    opacity: 0;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
+    transition: 1s;
+}
+
+.work .large-item:hover .text-large-item{
+    bottom: 0;
+    opacity: 1;
+}
+
+.work .text-large-item h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #29313D;
+    margin-bottom: 10px;
+}
+
+.work .text-large-item a{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF5538;
+}
+
+/* work part end */
+
+/* work part start */
+/* work part end */
