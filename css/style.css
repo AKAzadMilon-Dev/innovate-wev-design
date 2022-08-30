@@ -509,7 +509,7 @@ a{
     box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
     -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
     -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
-    transition: 1s;
+    transition: .5s;
 }
 
 .work .small-item:hover .text-small-item{
@@ -555,7 +555,7 @@ a{
     box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
     -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
     -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
-    transition: 1s;
+    transition: .5s;
 }
 
 .work .large-item:hover .text-large-item{
@@ -579,6 +579,189 @@ a{
 }
 
 /* work part end */
+
+/* Complete works part start */
+
+.completework{
+    background: #FDF9F8;
+    padding: 128px 0;
+    position: relative;
+}
+
+.completework img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.completework .round-shape {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FFABBA;
+    border-radius: 50%;
+    position: absolute;
+    top: 293px;
+    left: 133px;
+}
+
+.completework .round-shape .inner-shape {
+    width: 20px;
+    height: 20px;
+    background: #FFABBA;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 65px;
+    left: 44px;
+    animation: two 5s infinite;
+}
+
+@keyframes two {
+    0% {
+        
+        transform: scale(2.7);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.completework .dot {
+    width: 17px;
+    height: 17px;
+    background: #C087EE;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 75px;
+    left: 610px;
+    animation: one 1s infinite;
+}
+
+@keyframes one {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(2.7);
+        opacity: 0;
+    }
+}
+
+.completework .box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.completework .box .counts{
+    width: 39%;
+    margin-bottom: 30px;
+}
+
+.completework .counts .counts-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.completework .counts .counts-box-one{
+    width: 259px;
+    height: 230px;
+    background: #fff;
+    padding: 74px 60px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.completework .counts-box-one h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #29313D;
+}
+
+.completework .counts-box-one p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313D;
+}
+
+.completework .counts .counts-box-two{
+    width: 259px;
+    height: 230px;
+    background: #fff;
+    padding: 74px 60px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.completework .counts-box-two h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #29313D;
+}
+
+.completework .counts-box-two p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313D;
+}
+
+.completework .box .text{
+    width: 58%;
+    margin-left: 60px;
+}
+
+.completework .text .title h2{
+    width: 570px;
+}
+
+.completework .text .title p{
+    width: 550px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313D;
+    line-height: 200%;
+    margin-top: 20px;
+}
+
+.completework .text .button{
+    width: 181px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.completework .text .button a{
+    display: inline-block;
+    background: #FF5538;
+    padding: 14px 28px;
+    border-radius: 18px;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    border: 1px solid transparent;
+}
+
+.completework .text .button a:hover{
+    background: transparent;
+    color: #FF5538;
+    border-color: #FF5538;
+
+}
+
+
+
+/* Complete works part end */
 
 /* work part start */
 /* work part end */
