@@ -799,5 +799,63 @@ a{
 
 /* Globals Companies part end */
 
+/* Customer part start */
+
+.customer{
+    padding: 120px 255px;
+    background: #FDF9F8;
+}
+
+.customer .box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer .text{
+    width: 60%;
+}
+
+.customer .text h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #29313D;
+    margin-bottom: 60px;
+}
+
+.customer .text img{
+    margin-right: 20px;
+    margin-bottom: 60px;
+}
+
+.customer .text p{
+    width: 690px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #29313D;
+    margin-bottom: 60px;
+}
+
+.customer .text h4{
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    font-weight: 600px;
+    color: #29313D;
+}
+
+.customer .img{
+    width: 40%;
+}
+
+.customer .img img{
+    width: 501px;
+    height: 557px;
+    box-sizing: border-box;
+}
+
+/* Customer part end */
+
 /* work part start */
 /* work part end */
