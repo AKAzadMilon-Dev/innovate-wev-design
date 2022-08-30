@@ -759,9 +759,45 @@ a{
 
 }
 
-
-
 /* Complete works part end */
+
+/* Globals Companies part start */
+
+.partners{
+    background: #fff;
+    padding: 120px 0;
+}
+
+.partners .title{
+    text-align: center;
+}
+
+.partners .title h2{
+    margin: 0 auto;
+    width: 849px;
+}
+
+.partners .box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners .item{
+    width: 210px;
+    height: 130px;
+    background: #FDF9F8;
+    display: flex;
+    margin-top: 60px;
+}
+
+.partners .item img{
+    width: 128px;
+    height: 32px;
+    padding: 49px 41px;
+    
+}
+
+/* Globals Companies part end */
 
 /* work part start */
 /* work part end */
